@@ -1,0 +1,48 @@
+inherited frmMain_LgXhdpiTb: TfrmMain_LgXhdpiTb
+  ClientHeight = 828
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 480.000000000000000000
+    inherited Salir: TButton
+      Position.X = 432.000000000000000000
+    end
+  end
+  inherited Panel1: TPanel
+    Size.Width = 480.000000000000000000
+    Size.Height = 780.000000000000000000
+    inherited EPassword: TEdit
+      Size.Width = 440.000000000000000000
+    end
+    inherited ECorreo: TEdit
+      Size.Width = 440.000000000000000000
+    end
+    inherited Label2: TLabel
+      Size.Width = 440.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited Label3: TLabel
+      Size.Width = 440.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited BtnIniciar: TButton
+      Size.Width = 440.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited Panel2: TPanel
+      Size.Width = 440.000000000000000000
+      inherited btnRegistrate: TButton
+        Size.Width = 270.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited BtnRecuperarPassword: TButton
+      Size.Width = 260.000000000000000000
+      TextSettings.Font.StyleExt = {04040000000000000004000000}
+    end
+    inherited MostrarPassword: TCheckBox
+      Size.Width = 280.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

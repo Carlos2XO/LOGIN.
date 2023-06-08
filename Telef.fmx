@@ -1,0 +1,149 @@
+object Codigo: TCodigo
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 779
+  ClientWidth = 348
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button3: TButton
+    Align = Scale
+    Size.Width = 26.000000000000000000
+    Size.Height = 54.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'arrowlefttoolbutton'
+    TabOrder = 1
+    Text = 'Salir'
+    OnClick = Button3Click
+  end
+  object Label1: TLabel
+    Align = Top
+    Size.Width = 348.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'RESSET PASSWORD'
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Align = Scale
+    Margins.Left = 150.000000000000000000
+    Margins.Top = 110.000000000000000000
+    Margins.Right = 150.000000000000000000
+    Position.X = 54.000000000000000000
+    Position.Y = 158.000000000000000000
+    Size.Width = 131.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Correo:'
+    TabOrder = 5
+  end
+  object EditCorreoT: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Scale
+    TabOrder = 7
+    Position.X = 54.000000000000000000
+    Position.Y = 175.000000000000000000
+    Padding.Left = 150.000000000000000000
+    Margins.Left = 150.000000000000000000
+    Margins.Right = 115.000000000000000000
+    Size.Width = 227.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label3: TLabel
+    Align = Scale
+    Margins.Left = 150.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 150.000000000000000000
+    Position.X = 54.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 103.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Telefono:'
+    TabOrder = 3
+  end
+  object EditTelefonoR: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Scale
+    TabOrder = 6
+    Position.X = 54.000000000000000000
+    Position.Y = 268.000000000000000000
+    Margins.Left = 150.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 115.000000000000000000
+    Size.Width = 227.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object BtnEnviarR: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 456.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = 'Enviar'
+    OnClick = BtnEnviarRClick
+  end
+  object Label4: TLabel
+    Position.X = 54.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 259.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'Esta p'#225'gina enviar'#225' un codigo, el cual debes ingresar para cambi' +
+      'ar tu PASSWORD.'
+    TabOrder = 18
+  end
+  object Label5: TLabel
+    Align = Scale
+    Margins.Left = 150.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 150.000000000000000000
+    Position.X = 54.000000000000000000
+    Position.Y = 158.000000000000000000
+    Size.Width = 103.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Codigo:'
+    Visible = False
+    TabOrder = 2
+  end
+  object EditCodigoT: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Scale
+    TabOrder = 4
+    Position.X = 54.000000000000000000
+    Position.Y = 186.000000000000000000
+    Margins.Left = 150.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 115.000000000000000000
+    Size.Width = 227.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+  end
+  object btnGuardarC: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 480.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 16
+    Text = 'Registrar'
+    Visible = False
+    OnClick = btnGuardarCClick
+  end
+  object CheckCodigo: TCheckBox
+    Position.X = 104.000000000000000000
+    Position.Y = 584.000000000000000000
+    TabOrder = 19
+    Text = 'CheckCodigo'
+    Visible = False
+  end
+end

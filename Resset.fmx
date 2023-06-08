@@ -1,0 +1,132 @@
+﻿object RessetU: TRessetU
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 779
+  ClientWidth = 348
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button3: TButton
+    Align = Scale
+    Size.Width = 26.000000000000000000
+    Size.Height = 54.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'arrowlefttoolbutton'
+    TabOrder = 1
+    Text = 'Salir'
+    OnClick = Button3Click
+  end
+  object Label1: TLabel
+    Align = Top
+    Size.Width = 348.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'RESSET PASSWORD'
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Align = Scale
+    Margins.Left = 150.000000000000000000
+    Margins.Top = 110.000000000000000000
+    Margins.Right = 150.000000000000000000
+    Position.X = 54.000000000000000000
+    Position.Y = 134.000000000000000000
+    Size.Width = 131.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Correo:'
+    TabOrder = 4
+  end
+  object EditCorreoR: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Scale
+    TabOrder = 6
+    Position.X = 54.000000000000000000
+    Position.Y = 151.000000000000000000
+    Padding.Left = 150.000000000000000000
+    Margins.Left = 150.000000000000000000
+    Margins.Right = 115.000000000000000000
+    Size.Width = 227.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label3: TLabel
+    Align = Scale
+    Margins.Left = 150.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 150.000000000000000000
+    Position.X = 54.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 103.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Contrase'#241'a:'
+    TabOrder = 3
+  end
+  object EditContraseñaR: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Scale
+    TabOrder = 5
+    Position.X = 54.000000000000000000
+    Position.Y = 244.000000000000000000
+    Margins.Left = 150.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 115.000000000000000000
+    Size.Width = 227.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object BtnGuardarR: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 456.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    Text = 'Guardar'
+    OnClick = BtnGuardarRClick
+  end
+  object check8R: TCheckBox
+    Enabled = False
+    Position.X = 32.000000000000000000
+    Position.Y = 560.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 16
+    Text = 'M'#237'nimo 8 caracteres'
+  end
+  object checkMinR: TCheckBox
+    Enabled = False
+    Position.X = 32.000000000000000000
+    Position.Y = 595.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = 'M'#237'nimo 1 min'#250'scula'
+  end
+  object checkMayR: TCheckBox
+    Enabled = False
+    Position.X = 32.000000000000000000
+    Position.Y = 632.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    Text = 'M'#237'nimo 1 may'#250'scula'
+  end
+  object checkCER: TCheckBox
+    Enabled = False
+    Position.X = 32.000000000000000000
+    Position.Y = 667.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Text = 'M'#237'nimo 1 caracter especial'
+  end
+end

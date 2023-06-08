@@ -1,0 +1,253 @@
+object RegistroU: TRegistroU
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 708
+  ClientWidth = 404
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCloseQuery = FormCloseQuery
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 404.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    TintColor = claBlue
+    OnClick = ToolBar1Click
+    object BtnAtras: TButton
+      Align = Left
+      StyledSettings = [Family, Size, Style]
+      IconTintColor = claWhite
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+      TabOrder = 2
+      Text = 'Salir'
+      TextSettings.FontColor = claWhite
+      OnClick = BtnAtrasClick
+    end
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Size]
+      Margins.Right = 48.000000000000000000
+      Size.Width = 308.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Source Code Pro'
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'REGISTRO'
+      TabOrder = 0
+    end
+  end
+  object Panel1: TPanel
+    Align = Client
+    Padding.Left = 20.000000000000000000
+    Padding.Top = 40.000000000000000000
+    Padding.Right = 20.000000000000000000
+    Padding.Bottom = 20.000000000000000000
+    Size.Width = 404.000000000000000000
+    Size.Height = 660.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Label8: TLabel
+      Align = Top
+      StyledSettings = [Size, FontColor]
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Source Code Pro'
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'USUARIO'
+      TabOrder = 1
+    end
+    object ENombres: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 13
+      Position.X = 20.000000000000000000
+      Position.Y = 73.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Nombres'
+    end
+    object Panel2: TPanel
+      Align = Top
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 125.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      object EApellidoP: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 13
+        Margins.Bottom = 20.000000000000000000
+        Size.Width = 170.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Apellido paterno'
+      end
+      object EApellidoM: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Right
+        TabOrder = 12
+        Position.X = 194.000000000000000000
+        Size.Width = 170.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Apellido materno'
+      end
+    end
+    object ECorreo: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 12
+      Position.X = 20.000000000000000000
+      Position.Y = 229.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Correo electronico'
+    end
+    object EPassword: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 11
+      Password = True
+      Position.X = 20.000000000000000000
+      Position.Y = 281.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Contrase'#241'a'
+      OnKeyUp = EPasswordKeyUp
+    end
+    object ENoCelular: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 16
+      KeyboardType = PhonePad
+      MaxLength = 10
+      Position.X = 20.000000000000000000
+      Position.Y = 177.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'No. De celular'
+    end
+    object BtnRegistrarme: TButton
+      Align = Top
+      StyledSettings = [Size]
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 480.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 15
+      Text = 'Registrarme'
+      TextSettings.Font.Family = 'Source Code Pro'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TintColor = claBlue
+      OnClick = BtnRegistrarmeClick
+    end
+    object MostrarPassword: TCheckBox
+      Align = Top
+      StyledSettings = [FontColor]
+      Margins.Left = 90.000000000000000000
+      Margins.Right = 90.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 110.000000000000000000
+      Position.Y = 451.000000000000000000
+      Size.Width = 184.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 19
+      Text = 'Ver contrase'#241'as'
+      TextSettings.Font.Family = 'Source Code Pro'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      OnChange = MostrarPasswordChange
+    end
+    object check8: TCheckBox
+      Align = Top
+      Enabled = False
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 375.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 17
+      Text = 'M'#237'nimo 8 caracteres'
+    end
+    object checkCE: TCheckBox
+      Align = Top
+      Enabled = False
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 394.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 21
+      Text = 'M'#237'nimo 1 caracter especial'
+    end
+    object checkMay: TCheckBox
+      Align = Top
+      Enabled = False
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 413.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 20
+      Text = 'M'#237'nimo 1 may'#250'scula'
+    end
+    object checkMin: TCheckBox
+      Align = Top
+      Enabled = False
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 432.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 18
+      Text = 'M'#237'nimo 1 min'#250'scula'
+    end
+    object EConfiPassword: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 22
+      Password = True
+      Position.X = 20.000000000000000000
+      Position.Y = 333.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Confirmar contrase'#241'a'
+    end
+  end
+end

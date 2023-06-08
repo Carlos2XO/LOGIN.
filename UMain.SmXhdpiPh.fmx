@@ -1,0 +1,48 @@
+inherited frmMain_SmXhdpiPh: TfrmMain_SmXhdpiPh
+  ClientHeight = 376
+  ClientWidth = 248
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 248.000000000000000000
+    inherited Salir: TButton
+      Position.X = 200.000000000000000000
+    end
+  end
+  inherited Panel1: TPanel
+    Size.Width = 248.000000000000000000
+    Size.Height = 328.000000000000000000
+    inherited EPassword: TEdit
+      Size.Width = 208.000000000000000000
+    end
+    inherited ECorreo: TEdit
+      Size.Width = 208.000000000000000000
+    end
+    inherited Label2: TLabel
+      Size.Width = 208.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited Label3: TLabel
+      Size.Width = 208.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited BtnIniciar: TButton
+      Size.Width = 208.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited Panel2: TPanel
+      Size.Width = 208.000000000000000000
+      inherited btnRegistrate: TButton
+        Size.Width = 38.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited BtnRecuperarPassword: TButton
+      Size.Width = 28.000000000000000000
+      TextSettings.Font.StyleExt = {04040000000000000004000000}
+    end
+    inherited MostrarPassword: TCheckBox
+      Size.Width = 48.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end
